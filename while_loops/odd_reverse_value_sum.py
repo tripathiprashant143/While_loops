@@ -1,0 +1,19 @@
+a=int(input('enter the value:-'))
+sum=0
+b=a-1
+if(a%2!=0):
+    while(a>=1):
+        print(a,end="")
+        sum=sum+a
+        if(a>1):
+            print("+",end="")
+        a-=2
+    print("=",sum)
+else:
+    while(b>=1):
+        print(b,end="")
+        sum=sum+b
+        if(b>1):
+            print("+",end="")
+        b-=2
+    print("=",sum)
